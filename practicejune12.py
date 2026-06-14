@@ -93,3 +93,5 @@ class Fan(Appliance):
 
 f = Fan()
 f.turn_on()
+# hacker code safe
+
