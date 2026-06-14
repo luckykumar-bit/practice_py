@@ -93,5 +93,82 @@ class Fan(Appliance):
 
 f = Fan()
 f.turn_on()
-# hacker code safe
 
+# 6
+
+n = int(input())
+arr = list(map(int, input().split()))
+
+for i in range(n - 1, -1, -1):
+    print(arr[i], end=" ")
+    
+    
+    # 7
+n = int(input())
+arr = list(map(int, input().split()))
+
+largest = arr[0]
+
+for i in arr:
+    if i > largest:
+        largest = i
+
+print(largest)
+
+# 8
+n = int(input())
+arr = []
+
+for i in range(n):
+    num = int(input())
+    arr.append(num)
+
+print(arr)
+# 9
+n = int(input())
+arr = [int(input()) for i in range(n)]
+
+print(arr)
+
+# 10
+arr = list(range(1, 11))
+
+print(arr)
+# 11
+arr = []
+
+arr.append(10)
+arr.append(20)
+arr.append(30)
+
+print(arr)
+
+# 12
+arr = [int(input()) for i in range(n)]
+
+# 13
+n = int(input())
+arr = list(map(int, input().split()))
+
+count = 0
+
+for i in arr:
+    if i % 2 != 0:
+        count += 1
+
+print(count)
+
+# 14n = int(input())
+
+arr = []
+
+for i in range(n):
+    num = int(input())
+    arr.append(num)
+
+print(max(arr))
+# 15
+arr = []
+
+for i in range(n):
+    arr.append(int(input()))
